@@ -1,0 +1,50 @@
+.contactSection {
+    padding : 4rem 2rem;
+    background-color: #99a7f4;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.messageBox, .form {
+    border : 2px solid #000;
+    padding : 2rem;
+    min-width : 300px;
+    flex : 1;
+    background-color: #fff;
+}
+
+.messageBox p {
+    font-size: 1rem;
+    color : black;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.socialIcon img{
+    
+    width : 50px;
+    height : 50px;
+    transition: color 0.3s ease;
+    gap: 10px;
+}
+
+.socialIcon a {
+    display: block;
+    gap: 100px;
+}
+
+.socialIcon img:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}

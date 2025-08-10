@@ -1,0 +1,10 @@
+:root {
+  --primary-color: rgb(106, 154, 176);
+  --secondary-color: rgb(58, 109, 140);
+  --dark-color: #001F3F;
+  --light-color: #EAD8B1;
+
+  --font-stack: 'Roboto', sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+}

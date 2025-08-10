@@ -1,0 +1,9 @@
+@import "./var.css";
+
+.app {
+    
+    background-color: var(--dark-color);
+    color: azure;
+    width: 100%;
+    height: 100%;
+}
